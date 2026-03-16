@@ -1,11 +1,64 @@
-<div align="center">
+# Салон красоты «Норма Тела» — Массаж и косметология в Волгограде
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Современный и элегантный лендинг для салона красоты, разработанный с использованием React, Tailwind CSS и Express. Приложение включает в себя форму быстрой записи с уведомлениями в Telegram.
 
-  <h1>Built with AI Studio</h2>
+## Особенности
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Адаптивный дизайн**: Идеально отображается на мобильных устройствах, планшетах и десктопах.
+- **Интерактивные элементы**: Плавные анимации с использованием `motion`.
+- **Форма записи**: Клиенты могут оставить заявку на услугу.
+- **Уведомления в Telegram**: Все заявки мгновенно приходят администратору в Telegram-группу через бота.
+- **SEO оптимизация**: Настроенные мета-теги для лучшей индексации.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Технологический стек
 
-</div>
+- **Frontend**: React 19, Vite, Tailwind CSS 4, Lucide React, Motion.
+- **Backend**: Node.js, Express.
+- **Инструменты**: TypeScript, tsx.
+
+## Начало работы
+
+### Требования
+
+- Node.js (версия 18 или выше)
+- npm или yarn
+
+### Установка
+
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/your-username/norma-tela-landing.git
+   cd norma-tela-landing
+   ```
+
+2. Установите зависимости:
+   ```bash
+   npm install
+   ```
+
+### Настройка окружения
+
+Создайте файл `.env` в корневой директории на основе `.env.example` и заполните необходимые переменные:
+
+```env
+TELEGRAM_BOT_TOKEN=ваш_токен_бота
+TELEGRAM_CHAT_ID=ваш_id_чата_или_группы
+```
+
+### Запуск
+
+Для запуска в режиме разработки:
+```bash
+npm run dev
+```
+Приложение будет доступно по адресу `http://localhost:3000`.
+
+Для сборки и запуска в продакшене:
+```bash
+npm run build
+npm start
+```
+
+## Лицензия
+
+Этот проект распространяется под лицензией MIT. Подробности в файле [LICENSE](LICENSE).
